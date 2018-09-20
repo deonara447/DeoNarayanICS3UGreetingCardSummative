@@ -10,11 +10,14 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Media;
 
-/// <summary>
-/// Created By: Deo Narayan test
-/// Date: September 24, 2018
-/// Description: (MUST COMPLETE)
-/// </summary>
+/*
+Created By: Deo Narayan
+Date: September 24, 2018
+Description: This is a program for a Christmas card which begins as an envelope with a snowing gif. Once the envelope is 
+clicked, a Christmas card appears with deck the halls playing, a talking Santa, and a Christmas tree. Once the program is done,
+click the run again button to run the program again.
+*/
+
 
 namespace DeoNarayanICS3UGreetingCardSummative
 {
@@ -209,7 +212,7 @@ namespace DeoNarayanICS3UGreetingCardSummative
             envelopeLabel.ForeColor = Color.Black;
             envelopeLabel.Width = this.Width/5;
             envelopeLabel.Height = this.Height/10;
-            envelopeLabel.Location = new Point(200, 270);
+            envelopeLabel.Location = new Point(185, 270);
 
             //Recreating Christmas Card
             //because I caused the screen to refresh by making changes to the envelopeLabel, I must recreate the features of the card
