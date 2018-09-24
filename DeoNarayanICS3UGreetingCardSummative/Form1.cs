@@ -18,7 +18,6 @@ clicked, a Christmas card appears with deck the halls playing, a talking Santa, 
 click the run again button to run the program again.
 */
 
-
 namespace DeoNarayanICS3UGreetingCardSummative
 {
     public partial class MainForm : System.Windows.Forms.Form
@@ -26,22 +25,6 @@ namespace DeoNarayanICS3UGreetingCardSummative
         public MainForm()
         {
             InitializeComponent();
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Shown(object sender, EventArgs e)
-        {
-
-        }
-
-        private void drawLabel_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Envolope_Click(object sender, EventArgs e)
