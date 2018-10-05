@@ -196,7 +196,7 @@ namespace DeoNarayanICS3UGreetingCardSummative
             envelopeLabel.Width = this.Width/5;
             envelopeLabel.Height = this.Height/10;
             envelopeLabel.Location = new Point(185, 270);
-
+           
             //Recreating Christmas Card
             //because I caused the screen to refresh by making changes to the envelopeLabel, I must recreate the features of the card
             //card background red
